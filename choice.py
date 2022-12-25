@@ -3,7 +3,7 @@ import statistic
 
 
 n = 0
-n += 2
+name = "Эрнест"
 def start():
     a = input("Требуемый формат данных: ")
     if a == "Вакансии": table.get_table()
