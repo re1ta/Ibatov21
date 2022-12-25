@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>Аналитика по зарплатам и городам для профессии {{ profession_name }}</h1>
+  <img src="file:///C:/Users/nlg69/PycharmProjects/pythonProject1/ELearn/graph.png" width="840" height="630" align="left">
+  <h2>Статистика по годам</h2>
+  <table class="inner-table">
+    {{ table1 }}
+  </table>
+  <h2>Статистика по городам</h2>
+  <table class="outer-table" width="100%">
+    <tr>
+      <td class="table-element">
+        <table class="inner-table" width="100%">
+          {{ table2 }}
+        </table>
+      </td>
+      <td class="table-element">
+        <table class="inner-table" width="100%">
+          {{ table3 }}
+        </table>
+      </td>
+    </tr>
+  </table>
+  <style>
+    body {
+      font-family: Verdana;
+      text-align: center;
+    }
+    h1, h2 {
+      font-weight: bold;
+    }
+    .inner-table {
+      border: 1px solid #000000;
+      border-collapse: collapse;
+    }
+    th {
+      border: 1px solid #000000;
+      padding: 5px;
+      font-weight: bold;
+    }
+    td {
+      border: 1px solid #000000;
+      padding: 5px;
+    }
+    .table-element {
+      border: 0px;
+    }
+  </style>
+</body>
+</html>
