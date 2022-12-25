@@ -3,12 +3,8 @@ import statistic
 
 
 n = 0
-<<<<<<< HEAD
 name = "Эрнест Ибатов"
-=======
-name = "Эрнест"
-name2 = "Ибатов"
->>>>>>> new_code
+
 def start():
     a = input("Требуемый формат данных: ")
     if a == "Вакансии": table.get_table()
